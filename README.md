@@ -2,10 +2,10 @@
 
 # sapper-template
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, with branches for Rollup and webpack. To clone it and get started:
+The default [Sapper](https://github.com/sveltejs/sapper) template, with Rollu. To clone it and get started:
 
 ```bash
-npx degit langbamit/sapper-postcss-tailwind-rollup my-app
+npx degit moollaza/Sapper-PostCSS-Tailwind-Rollup my-app
 cd my-app
 npm install # or yarn!
 npm run dev
