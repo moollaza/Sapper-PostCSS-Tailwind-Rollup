@@ -2,7 +2,7 @@
 
 # sapper-template
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, with Rollu. To clone it and get started:
+The default [Sapper](https://github.com/sveltejs/sapper) template, with Rollup. To clone it and get started:
 
 ```bash
 npx degit moollaza/Sapper-PostCSS-Tailwind-Rollup my-app
