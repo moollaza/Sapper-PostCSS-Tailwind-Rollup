@@ -51,29 +51,9 @@
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
     %sapper.scripts%
-
-    <!-- Fathom - simple website analytics - https://usefathom.com -->
-    <script>
-      // Only load in production
-      if (window.location.hostname === '--- FILL IN URL ---') {
-        ;(function(f, a, t, h, o, m) {
-          a[h] =
-            a[h] ||
-            function() {
-              ;(a[h].q = a[h].q || []).push(arguments)
-            }
-          ;(o = f.createElement('script')),
-            (m = f.getElementsByTagName('script')[0])
-          o.async = 1
-          o.src = t
-          o.id = 'fathom-script'
-          m.parentNode.insertBefore(o, m)
-        })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom')
-        fathom('set', 'siteId', '--- FILL IN FATHOM ID ---')
-        fathom('trackPageview')
-        fathom('set', 'spa', 'pushstate')
-      }
-    </script>
+    
+    <!-- Fathom - beautiful, simple website analytics -->
+    <script src="https://cdn.usefathom.com/script.js" spa="auto" site="--- FATHOM ID HERE ---" included-domains="--- yourdomain.com ---" defer></script>
     <!-- / Fathom -->
   </body>
 </html>
